@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/task3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
 <h1>Restaurant  Details</h1>
@@ -22,18 +24,20 @@
             <input type="text" placeholder="www.foody.com"id="ResWeb"> 
         </form>         
  </div>
-
-         <div class="imgDiv">
+   <div class="imgDiv">
              <h2> Restaurant Profile Image</h2>
-             <div id='ImgContainer'>
-                 <!-- <p>Upload high resolution image to showcase your food.It should be 4:3(1204*223)  </p> -->
-                 <img src='./images/log.png' id="logo"></img>
-
-             </div>
-             <button id="btnUpload">UPLOAD IMAGE</button>
+              <div id='ImgContainer'>
+                  <p>Upload high resolution
+                      image to showcase your food.It should be 4:3(1204*223)  
+                    </p>
+                  <!-- <img src='./images/log.png' id="logo"></img>  -->
+              </div> 
+             <input  type="file" id="btnUpload"/>
              <p>Images that show multplie<a href="#">example</a></p>
-         </div>    
+     </div>    
+
 
     </div>
+    <script src='./scripts/Task3.js'></script>
 </body>
 </html>
