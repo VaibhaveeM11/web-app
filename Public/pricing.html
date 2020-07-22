@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advancing pricing</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="main-container">
+      <div>
+          <label style="font-size:20px; margin-bottom: 3em;" id="ad-price">
+            Advanced Pricing
+            <input type="checkbox" id="check-bx"> 
+          </label>
+      </div><br><br>
+         <span style=" color: grey; margin:3em;">Description</span>
+         <span style=" color: grey;">Price(0 is free)</span>
+         <br><br>
+         <div class="pricing-container">
+             <input type="text" placeholder="Large" id="inputDesc_1" name="des1"> 
+             <input type="text" placeholder="0" id="inputPrice_1" name="prc1">   
+             <input type="text" placeholder="" id="inputNew_1" name="new">   
+         </div> 
+         <div>        
+            <button id="btn-addrow">Add Row</button>
+       </div>
+        <button id="btn-save">SAVE OPTIONS</button>
+ <script src="./scripts/mainNew.js"></script>
+  </div>
+</body>
+</html>
