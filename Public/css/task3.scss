@@ -8,7 +8,7 @@ $white-dark:#F0F3F4;
 {
   border: none;
   padding:1em;
-  width: 20em;
+  width: 30em;
   margin: 1em;
   background-color: $white-dark;
 }
@@ -19,6 +19,11 @@ $white-dark:#F0F3F4;
    width: 400px;
    height: 300px;
    background-color:$white-dark ;
+}
+#logo
+{
+    opacity: 0.3; width: 200px; position: absolute ;left: 5em;bottom: 2em;
+    border: none;
 }
 #btnUpload
 {
